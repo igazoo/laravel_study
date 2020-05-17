@@ -15,6 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('shops/index','ShopController@index');
 Route::get('tests/test','TestController@index');
 
 // Route::resource('contacts','ContactFormController')->only([
